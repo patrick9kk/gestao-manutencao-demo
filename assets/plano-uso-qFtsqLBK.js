@@ -1,0 +1,1 @@
+const n=o=>o.toLocaleString("pt-BR",{maximumFractionDigits:2}),u=o=>o!=="USO",$=o=>o==="USO"||o==="USO_OU_TEMPO";function a(o,s,r){if(o===null)return"—";const t=`aos ${n(o)} ${r}`;return s==null?t:s>0?`${t}, faltam ${n(s)} ${r}`:s===0?`${t}, atingida`:`${t}, passou ${n(-s)} ${r}`}const c=(o,s)=>o===null?"—":`a cada ${n(o)} ${s}`;export{$ as a,c as b,a as t,u};

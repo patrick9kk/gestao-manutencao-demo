@@ -1,0 +1,1 @@
+const e=/^[\w.-]{1,80}$/;function i(c,o=window.location.origin){const t=c.trim();if(!t)return null;if(e.test(t))return t;try{const n=new URL(t,o);if(!/^https?:$/.test(n.protocol)||n.origin!==o)return null;const r=n.pathname.match(/^\/q\/([^/]+)\/?$/);return r?decodeURIComponent(r[1]):null}catch{return null}}export{i as c};

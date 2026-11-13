@@ -1,0 +1,1 @@
+const e="/gestao-manutencao-demo/assets/zxing_reader-BCjuyud6.wasm";export{e as default};

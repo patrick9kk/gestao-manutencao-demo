@@ -1,0 +1,39 @@
+{
+  "name": "Gestão de Manutenção · DNA Engenharia",
+  "short_name": "Manutenção DNA",
+  "start_url": "/hoje",
+  "display": "standalone",
+  "background_color": "#032C40",
+  "theme_color": "#032C40",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/marca/icone-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/marca/icone-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Minhas OS de hoje",
+      "url": "/hoje",
+      "icons": [
+        {
+          "src": "/marca/icone-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/marca/icone-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
